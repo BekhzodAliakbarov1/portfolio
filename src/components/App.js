@@ -1,0 +1,60 @@
+import React from 'react'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import Footer from './Footer/Footer'
+import Footer2 from './Footer/Footer2'
+import Home from './Home/Home'
+import Home1 from './Home/HomeParts/Home1'
+import Home2 from './Home/HomeParts/Home2'
+import Home3 from './Home/HomeParts/Home3'
+import Home4 from './Home/HomeParts/Home4'
+import Home5 from './Home/HomeParts/Home5'
+import Home6 from './Home/HomeParts/Home6'
+import Home7 from './Home/HomeParts/Home7'
+import Navbar from './Navbar/Navbar'
+
+function App() {
+    return (
+        <div style={{marginBottom: '300px', width: '100%', overflow: 'hidden'}}>
+            <Router>
+                <Navbar />
+                <Switch>
+                    <Route exact path='/'>
+                        <Home />
+                    </Route>
+                    <Route exact path='/portfolio'>
+                        <Home1 />
+                        <Home2 />
+                    </Route>
+                    <Route exact path='/about'>
+                        <Home1 />
+                        <Home4 />
+                    </Route>
+                    <Route exact path='/services'>
+                        <Home1 />
+                        <Home5 />
+                    </Route>
+                    <Route exact path='/skills'>
+                        <Home1 />
+                        <Home6 />
+                    </Route>
+                    <Route exact path='/testimonial'>
+                        <Home1 />
+                        <Home7 />
+                    </Route>
+                    <Route exact path='/journal'>
+                        <Home1 />
+                        <Home5 />
+                        <Home3 />
+                    </Route>
+                    <Route exact path='/contact'>
+                        <Home1 />
+                    </Route>
+                </Switch>
+                <Footer />
+                <Footer2 />
+            </Router>
+        </div>
+    )
+}
+
+export default App

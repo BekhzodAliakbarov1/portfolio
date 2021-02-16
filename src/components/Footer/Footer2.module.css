@@ -1,0 +1,42 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(41, 41, 41);
+    color: rgb(110, 110, 110);
+    background-attachment: fixed;
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+}
+.container{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.container > h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+}
+.web{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.web h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.container > h3{
+    font-size: 10px;
+    font-weight: 800;
+    text-align: center;
+}
+.container span{
+    color: rgb(212, 49, 85);
+}

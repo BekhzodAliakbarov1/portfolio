@@ -1,0 +1,51 @@
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card{
+    width: 90%;
+    margin:20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card h2{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    width: 50%;
+}
+.card p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+}
+.main > h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 0px;
+    text-align: center;
+}
+@media screen and (max-width: 800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+    }
+}
