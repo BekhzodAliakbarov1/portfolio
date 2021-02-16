@@ -111,6 +111,13 @@
         text-align: center;
     }
     .input{
+        grid-template-columns: 1fr;
         grid-template-rows: repeat(2, minmax(40px, 50px));
+    }
+    .input textarea{
+        width: 100%;
+    }
+    .input input{
+        width: 100% !important;
     }
 }

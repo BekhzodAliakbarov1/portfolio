@@ -13,7 +13,7 @@ import Footer from '../Footer/Footer'
 function Home() {
     return (
         <div className={style.main}>
-            <Home1 />
+            <Home1 title='we are it compony based on front-end'/>
             <Home2 />
             <Home3 />
             <Home4 />

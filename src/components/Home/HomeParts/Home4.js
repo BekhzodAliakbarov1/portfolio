@@ -17,10 +17,10 @@ function Home4() {
                         <h1>We can make it together</h1>
                     </RubberBand>
                     <Zoom left>
-                    <p>LoremVelit ea pariatur in laboris ea eu nisi minim.</p>
+                    <p>We are small It Company and at the moment we are working as a front-end developers.</p>
                     </Zoom>
                     <Zoom right>
-                        <p>LoremVelit eiusmod elit nostrud ex eiusmod sint ex tempor in commodo exercitation sint laboris reprehenderit. Et qui occaecat consequat aute voluptate enim laboris dolor do. Id sunt mollit do dolore quis est laborum.</p>
+                        <p>Hello we are HBBH It Company which is small it comany based on Front-End. At the moment we are four front-end developers and day by day our knowladge is continue increasing, we can make landing pages advertisements in web apps and we can show our best at the moment we are using the most popular framework which is React and for this reason our webSite is fast and attract users easily!</p>
                     </Zoom>
                 </div>
             </div>

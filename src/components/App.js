@@ -11,43 +11,45 @@ import Home5 from './Home/HomeParts/Home5'
 import Home6 from './Home/HomeParts/Home6'
 import Home7 from './Home/HomeParts/Home7'
 import Navbar from './Navbar/Navbar'
+import NavbarPhone from './Navbar/NavbarPhone'
 
 function App() {
     return (
         <div style={{marginBottom: '300px', width: '100%', overflow: 'hidden'}}>
             <Router>
                 <Navbar />
+                <NavbarPhone />
                 <Switch>
                     <Route exact path='/'>
                         <Home />
                     </Route>
                     <Route exact path='/portfolio'>
-                        <Home1 />
+                        <Home1 title='Our Portfolios'/>
                         <Home2 />
                     </Route>
                     <Route exact path='/about'>
-                        <Home1 />
+                        <Home1 title='About our company'/>
                         <Home4 />
                     </Route>
                     <Route exact path='/services'>
-                        <Home1 />
+                        <Home1 title='Our Services'/>
                         <Home5 />
                     </Route>
                     <Route exact path='/skills'>
-                        <Home1 />
+                        <Home1 title="We have these skills"/>
                         <Home6 />
                     </Route>
                     <Route exact path='/testimonial'>
-                        <Home1 />
+                        <Home1 title='Our clients opinions'/>
                         <Home7 />
                     </Route>
                     <Route exact path='/journal'>
-                        <Home1 />
+                        <Home1 title='we are it compony based on front-end'/>
                         <Home5 />
                         <Home3 />
                     </Route>
                     <Route exact path='/contact'>
-                        <Home1 />
+                        <Home1 title="Our contact information"/>
                     </Route>
                 </Switch>
                 <Footer />

@@ -39,7 +39,7 @@
     transition: all 1s ease;
 }
 .container{
-    width: 60%;
+    width: 70%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -49,7 +49,7 @@
 .container a{
     text-decoration: none;
     color: #fff;
-    font-size: 9px;
+    font-size: 15px;
     font-weight: 300;
     position: relative;
     line-height: 20px;
@@ -75,8 +75,7 @@
 }
 @media screen and (max-width: 800px){
     .container{
-        margin-left: auto;
-        width: 80%;
+        width: 90%;
     }
 }
 @media screen and (max-width: 400px){
@@ -87,5 +86,87 @@
     .container a:nth-child(5){
         font-size: 12px;
         font-weight: 200;
+    }
+}
+.mainPhone{
+    display: none;
+}
+/* Phone */
+@media screen and (max-width: 700px){
+    .main{
+        display: none;
+    }
+    .mainWhite{
+        display: none;
+    }
+    .mainPhone{
+        display: block;
+        width: 100%;
+        min-height: 60px;
+        background-color: #fff;
+        z-index: 100;
+        position: fixed;
+    }
+    .visible{
+        width: 80%;
+        height: 60px;
+        margin: auto;
+    }
+    .containerPhone{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .containerPhone a{
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        position: relative;
+        letter-spacing: 2px;
+    }
+    .containerPhone svg{
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+    }
+    .invisible{
+        width: 100%;
+        height: 91vh;
+        background-color: rgb(255, 255, 255);
+    }
+    .clickedMenu{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        transition: all 1s ease;
+    }
+    .clickedMenu a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        transition: all 1s ease;
+    }
+    .clickedMenu a:nth-child(even){
+        background-color: rgb(65, 58, 58);
+    }
+    .clickedMenu a:nth-child(odd){
+        background-color: rgb(119, 115, 115);
+    }
+    .clickedMenu a:hover{
+        background-color: black;
+        color: blanchedalmond;
+        transition: all 1s ease;
     }
 }

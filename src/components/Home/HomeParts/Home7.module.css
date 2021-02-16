@@ -3,7 +3,7 @@
     height: 100%;
     background-color: #000;
     color: #fff;
-    padding: 20px auto;
+    padding: 40px auto;
 }
 .main button{
     color: #fff;
@@ -28,7 +28,7 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    bottom: -30px;
+    bottom: 0px;
     position: absolute;
 }
 .card h1{
@@ -55,6 +55,11 @@
     margin: 0px;
     padding: 20px;
 }
+.main > div > div:nth-child(1){
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
 /* .main button.sc-bdfBwQ.lgksPe.rec.rec-arrow.rec.rec-arrow-right {
     display: none;
 }
@@ -72,8 +77,23 @@
         display: none; 
     }*/
     .card{
-        width: 60vw;
-        height: 40vh;
+        width: 70vw;
+        height: 60vh;
         margin: 0px ;
+    }
+}
+@media screen and (max-width: 500px){
+    .main > div > div:nth-child(1){
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .card{
+        justify-content:end;
+    }
+}
+@media screen and (max-width: 360px){
+    .card p{
+        font-size: 13px;
     }
 }

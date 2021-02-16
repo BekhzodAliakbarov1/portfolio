@@ -18,7 +18,6 @@ function Navbar() {
         window.addEventListener('scroll',scrall )
         
     }, [])
-
     return (
         <div className={scrall ? style.mainWhite : style.main}>
             <div className={style.container}>
@@ -35,7 +34,7 @@ function Navbar() {
                     Services
                 </Link>
                 <Link to='/'>
-                    BeK
+                    HBBH
                 </Link>
                 <Link to='/skills'>
                     Skills
