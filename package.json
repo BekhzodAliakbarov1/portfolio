@@ -17,7 +17,8 @@
     "react-scripts": "4.0.2",
     "styled-components": "^5.2.1",
     "vercel": "^21.2.3",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "predeploy": "npm run build",
