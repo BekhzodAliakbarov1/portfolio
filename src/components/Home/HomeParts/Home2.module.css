@@ -19,7 +19,26 @@
     cursor: pointer;
     position: relative;
     transition: all 1.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.container div a{
+    position: absolute;
+    text-decoration: none;
+    color: rgb(194, 35, 70);
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0;
+    transition: all 1s ease;
+    z-index: 20;
+    text-shadow: 0px 0px 20px #fff;
+}
+.container div:hover a{
+    transition: all 1s ease;
+    opacity: 1;
+}
+
 .container div::after{
     content: '';
     transition: all .5s ease;
@@ -42,6 +61,9 @@
     background-color: #000;
     opacity: .4;
 }
+/* .container div:hover{
+    display: block;
+} */
 .container div:nth-child(1){
     width: 30%;
     height: 200px;

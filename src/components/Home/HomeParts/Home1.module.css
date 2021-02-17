@@ -10,6 +10,12 @@
     align-items: center;
     background-attachment: fixed;
 }
+.main span{
+    font-size: 59px;
+    font-weight: 500;
+    color: rgb(211, 46, 46);
+    padding: 0px 1px;
+}
 .main h1{
     font-size: 50px;
     font-weight: 500;

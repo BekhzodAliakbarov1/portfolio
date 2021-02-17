@@ -7,13 +7,12 @@ import Home4 from './HomeParts/Home4'
 import Home5 from './HomeParts/Home5'
 import Home6 from './HomeParts/Home6'
 import Home7 from './HomeParts/Home7'
-import Footer from '../Footer/Footer'
 
 
 function Home() {
     return (
         <div className={style.main}>
-            <Home1 title='we are it compony based on front-end'/>
+            <Home1 title='We are IT compony based on front-end' brend='Welcome'/>
             <Home2 />
             <Home3 />
             <Home4 />

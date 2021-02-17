@@ -68,7 +68,7 @@ function Footer() {
                     <Zoom>
                     <div>
                         <h4>EMAIL</h4>
-                        <h3>bekhzodaliakbarov@gmail.com</h3>
+                        <h3 type='email'>hbbhitcomapny@gmail.com</h3>
                     </div>
                     </Zoom>
                     <Zoom>

@@ -45,7 +45,7 @@ function Home6() {
                             <CountUp start={0} end={90} duration={2} />
                             <span>%</span>
                         </div>
-                        <h5>Wordpres</h5>
+                        <h5>Wordpress</h5>
                     </div>
                 </LightSpeed>
             </div>

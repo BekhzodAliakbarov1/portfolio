@@ -16,7 +16,7 @@ function Home7() {
             </Zoom>
             <Carousel>
                 <div className={style.card}>
-                    <h1>!!!</h1>
+                    <h1>{`</>`}</h1>
                     <Tada>
                         <p>This small company did a great job for us. At the beginning i thought that they cannot do this job but their job was the best one.I advise clinets that they can give their ideas and can see the best result.</p>
                     </Tada>
@@ -25,7 +25,7 @@ function Home7() {
                     </div>
                 </div>
                 <div className={style.card}>
-                    <h1>!!!</h1>
+                    <h1>{`</>`}</h1>
                     <Tada>
                         <p>This HBBH company did a web site to our small market and our clients at the momnet can get all informations about our market and the number of users is continue increasing.</p>
                     </Tada>
@@ -34,7 +34,7 @@ function Home7() {
                     </div>
                 </div>
                 <div className={style.card}>
-                    <h1>!!!</h1>
+                    <h1>{`</>`}</h1>
                     <Tada>
                         <p>I give one websites ideas for this company and they had only two days to complete and i thought that they could not do yhis jab but they are so so masters and they didi that job in time and i am very happy with their jobs</p>
                     </Tada>
@@ -43,7 +43,7 @@ function Home7() {
                     </div>
                 </div>
                 <div className={style.card}>
-                    <h1>!!!</h1>
+                    <h1>{`</>`}</h1>
                     <Tada>
                         <p>LoremLaboris labore laboris occaecat sunt quis et. Do non non occaecat consectetur quis mollit enim officia consectetur non elit officia. Pariatur labore officia duis in laborum dolore. Sunt pariatur</p>
                     </Tada>
