@@ -54,7 +54,7 @@ function App() {
                     </Route>
                     <Route exact path='/contact'>
                         <Home1 title="Our contact information"/>
-                        <ExtraCard />
+                        {/* <ExtraCard /> */}
                     </Route>
                 </Switch>
                 <Footer />
