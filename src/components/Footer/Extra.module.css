@@ -1,0 +1,25 @@
+.one{
+    width: 100vw;
+    height: 60vh;
+    background-color: #000;
+}
+.one h1{
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    padding: 20px;
+}
+.mapdiv{
+    width: 80%;
+    /* margin: auto; */
+    height: 100%;
+}
+.mapdiv div{
+    position: absolute;
+    /* width: 90%; */
+    /* height: 90%; */
+    /* margin-left: 3vw; */
+}

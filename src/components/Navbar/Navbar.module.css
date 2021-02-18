@@ -162,6 +162,7 @@
     }
     .clickedMenu a{
         background-color: rgb(34, 31, 31);
+        border-bottom: 0px;
     }
     .clickedMenu a:hover{
         background-color: black;

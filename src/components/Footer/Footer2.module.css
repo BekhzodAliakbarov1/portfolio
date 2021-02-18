@@ -18,15 +18,18 @@
     flex-direction: column;
 }
 .container > h1{
+    width: 8%;
+    margin:30px auto;
     text-align: center;
     font-size: 25px;
     font-weight: 400;
     color: #fff;
+    transition: all 1s ease;
 }
 .web{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .web h3{
     font-size: 12px;
@@ -50,6 +53,16 @@
 }
 .container span{
     color: rgb(212, 49, 85);
+    transition: all 1s ease;
+}
+.container> h1:hover{
+    color: rgb(212, 49, 85);
+    transition: all 1s ease;
+}
+.container > h1:hover span{
+    color: #fff;
+    transition: all 1s ease;
+
 }
 @media screen and (max-width:530px){
     .web{

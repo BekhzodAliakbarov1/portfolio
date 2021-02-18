@@ -4,7 +4,7 @@ import img from '../../../assets/img/about_me_pic2.jpg'
 
 function Home1({title, brend}) {
     return (
-        <div className={style.main} style={{backgroundImage: `url(${img})`}}>
+        <div id='target' className={style.main} style={{backgroundImage: `url(${img})`}}>
             {
                 brend 
                     ?<h1>{brend}</h1>

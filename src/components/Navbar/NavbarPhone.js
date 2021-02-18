@@ -7,20 +7,6 @@ import { Link } from 'react-router-dom';
 
 function NavbarPhone() {
     const [click, setClick] = useState(false)
-    // const [scrall, setscrall] = useState(false)
-
-    // useEffect(() => {
-    //     const scrall = () =>{
-    //         if(window.scrollY > 200){
-    //             setscrall(true)
-    //         }else{
-    //             setscrall(false)
-    //         }
-    //     }
-
-    //     window.addEventListener('scroll',scrall )
-        
-    // }, [])
     return (
         <div className={style.mainPhone}>
             <div className={style.visible}>

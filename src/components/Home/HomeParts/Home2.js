@@ -51,7 +51,7 @@ function Home2() {
                 <div className={second ? `${style.card6} ${style.scroll1}` : style.card6} style={{backgroundImage: `url(${second&&img6})`}}><a href="https://calculator-ebon-rho.vercel.app">Calculator</a></div>
             </div>
             <div className={style.container}>
-                <div className={third ? `${style.card7} ${style.scroll2}` : style.card4} style={{backgroundImage: `url(${third&& img7})`}}><a href="https://react-udemy-9-lesson.vercel.app">Video Search</a></div>
+                <div className={third ? `${style.card7} ${style.scroll2}` : style.card4} style={{backgroundImage: `url(${third&& img7})`}}><a href="https://hbbhitcompany-interier.vercel.app">Video Search</a></div>
                 <div className={third ? `${style.card8} ${style.scroll2}` : style.card4} style={{backgroundImage: `url(${third&& img8})`}}><a href="https://react-udemy-9-lesson.vercel.app">Video Search</a></div>
                 <div className={third ? `${style.card9} ${style.scroll2}` : style.card4} style={{backgroundImage: `url(${third&& img9})`}}><a href="https://react-udemy-9-lesson.vercel.app">Video Search</a></div>
 

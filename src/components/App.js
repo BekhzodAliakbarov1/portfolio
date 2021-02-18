@@ -1,5 +1,8 @@
 import React from 'react'
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import ExtraCard from './Footer/ExtraCard';
 import Footer from './Footer/Footer'
 import Footer2 from './Footer/Footer2'
 import Home from './Home/Home'
@@ -17,6 +20,7 @@ function App() {
     return (
         <div style={{marginBottom: '300px', width: '100%', overflow: 'hidden'}}>
             <Router>
+                <ScrollToTop />
                 <Navbar />
                 <NavbarPhone />
                 <Switch>
@@ -50,6 +54,7 @@ function App() {
                     </Route>
                     <Route exact path='/contact'>
                         <Home1 title="Our contact information"/>
+                        <ExtraCard />
                     </Route>
                 </Switch>
                 <Footer />
@@ -60,3 +65,17 @@ function App() {
 }
 
 export default App
+
+
+
+
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}

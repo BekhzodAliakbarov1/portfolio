@@ -21,7 +21,7 @@ function Navbar() {
     return (
         <div className={scrall ? style.mainWhite : style.main}>
             <div className={style.container}>
-                <Link to='/'>
+                <Link to='/#target'>
                     Home
                 </Link>
                 <Link to='/portfolio'>
