@@ -43,7 +43,7 @@ export default function MobileNavbar() {
             <img
               className="mr-3"
               src="/static/favicon/favicon-96x96.png"
-              width="160"
+              width="40"
             />
           </Link>
         </li>
