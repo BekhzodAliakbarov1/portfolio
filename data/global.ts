@@ -26,6 +26,10 @@ export const routes: Route[] = [
     title: "Projects",
     path: "/projects",
   },
+  {
+    title: "Animations",
+    path: "/3d",
+  },
 ];
 
 export const footer: Footer = {

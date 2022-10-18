@@ -38,6 +38,15 @@ const projects: Project[] = [
     tags: ["React", "Materil-Ui", "React Query", "Authontication"],
   },
   {
+    id: 7,
+    title: "Pizza Booking service",
+    desc: "Booking service with framer motion and react",
+    img: "/static/projects/pizza.png",
+    link: "https://bekoo-pizza.vercel.app/",
+    github: "https://github.com/BekhzodAliakbarov1/framer-motion-react",
+    tags: ["React", "CSS", "Framer-motion", "React router dom"],
+  },
+  {
     id: 3,
     title: "Cost homealliance",
     desc: "Finding some home alliance informations easily",
