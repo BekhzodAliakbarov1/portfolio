@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-
 import Link from "next/link";
 import { routes } from "@/data/global";
 import useDelayedRender from "use-delayed-render";
